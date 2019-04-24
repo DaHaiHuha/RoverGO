@@ -1,3 +1,6 @@
+# 从宿舍到西门的上位机控制程序，仿真测试表现正常
+# 未实地测试
+
 from dronekit import connect, VehicleMode, Command,LocationGlobal,LocationGlobalRelative
 from pymavlink import mavutil
 import time
