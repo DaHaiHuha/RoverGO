@@ -1,6 +1,23 @@
 # Background of Nuro
 Nuro is an American robotics company developping autonomous delivery vehicles.
 ## Nuro's approach on Delivering Safety
+Three steps: Understading the world around the vehicle and its position, planning how to safely get to a destination, and executing that plan - see, think, do
+
+- See
+	
+	The vehicle needs to understand where it is in the world and what surrounds it. GPS is only accurate to within a few meters, so our vehicle also uses its location based on how it has moved relative to its previous position, and to localize its position in the world down to the centimeter.
+	
+	We use the vehicles sensors, including 12 high-definition cameras, radar, LIDAR, ultrasonic sensors, and audio sen- sors to provide a 360-degree, live image of the surrounding area. This enables us to see what other road users are do- ing, observe traffic signals, and understand anything that’s changed from our map.
+
+- Think 
+	
+	Our system then needs to plot its course. Our vehicle uses the maps and its understanding of its position to design multiple potential routes to the destination. The vehicle then combines that with observations of what’s happening live around it, and its experience observing the behavior of different kinds of road users — understanding the behavior differences between a pedestrian and a cyclist, a truck and a coupe — to figure out which route is safest. The system continuously updates its plan based on new information, and will take preemptive action to, for example, ensure it has enough time to react if another car turns without signaling or a pedestrian enters the street from behind a parked bus. Each mile traveled makes the system smarter, remembering the location of every pothole in its path and learning more about how other road users behave.
+
+- Do 
+
+	To execute the plan, the vehicle’s computer sends a signal to the relevant hardware systems, instructing them to steer, accelerate, brake, or signal a turn. Our vehicle can take ad- vantage of performance hardware and a narrower frame to
+maneuver safely around potential obstructions.
+
 
 
 
